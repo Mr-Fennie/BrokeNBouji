@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% extends "appOne/base.html" %}
+{% load staticfiles %}
+  {% block body_block %}
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Welcome Home</h1>
+      <h2>Where would you like to go?</h2>
+    </div>
+
+  </div>
+
+
+  <img src="{% static "images/6.jpg" %}" alt="Uh Oh, didn't show!">
+  {% endblock %}

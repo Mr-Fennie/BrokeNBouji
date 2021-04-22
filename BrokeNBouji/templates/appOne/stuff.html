@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% extends "appOne/base.html" %}
+{% load staticfiles %}
+  {% block body_block %}
+  <div class="container-fluid">
+    <h1>Welcome to stuff</h1>
+    <h2>Here is all the stuff</h2>
+  </div>
+
+
+    <img src="{% static "images/7.jpg" %}" alt="Uh Oh, didn't show!">
+
+  {% endblock %}
